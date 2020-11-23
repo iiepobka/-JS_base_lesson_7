@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Goldman', cursive;
+  background: #2e353d;
+}
+
+.menuButton {
+  width: 150px;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  background: #007b32;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menuButton:hover {
+  background: #009641;
+}
+
+#game {
+  border-collapse: collapse;
+  margin: 2% auto 0;
+}
+
+#menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+td.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px dotted #eee;
+  border-collapse: collapse;
+}
+
+.food {
+  background: #00d021;
+}
+
+.obstacle {
+  background: #00f;
+}
+
+.snakeBody {
+  background: #e5e5e5;
+}
+
+.snakeHead {
+  background: #9b0013;
+}
+
+.disabled {
+  background: #7c7c7c;
+}
+
+.disabled:hover {
+  background: #7c7c7c;
+}
+
+.countOutput {
+  text-align: center;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
